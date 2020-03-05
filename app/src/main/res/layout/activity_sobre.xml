@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activitySobre">
+
+    <TextView
+            android:text="FindApp desenvolvida pela Gabrielly Eng"
+            android:layout_width="320dp"
+            android:layout_height="25dp"
+            android:id="@+id/txtNome" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="50dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+    <TextView
+            android:text="Mercado Livre"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView" android:layout_marginTop="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtNome" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="eBay"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView2" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="Magalu"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView3" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="Netshoes"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView4" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="Americanas"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView5" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="Webmotors"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView6" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <TextView
+            android:text="Buscapé"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:id="@+id/textView7" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+    <Button
+            android:text="Limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btLimpar" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginTop="25dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"/>
+    <TextView
+            android:text="Submarino"
+            android:layout_width="187dp"
+            android:layout_height="33dp"
+            android:id="@+id/textView8" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="30dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

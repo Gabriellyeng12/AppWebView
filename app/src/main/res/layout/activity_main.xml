@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:id="@+id/idMain">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/buscape"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                   android:id="@+id/idWebViewBuscape"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/mercado_livre"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                   android:id="@+id/idWebViewMercado"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/ebay"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                    android:id="@+id/idWebViewEbay"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/webmotors"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                   android:id="@+id/idWebViewWebmotors"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/magalu"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                   android:id="@+id/idWebViewMagalu"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/netshoes"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                   android:id="@+id/idWebViewNetshoes"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/americanas"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                  android:id="@+id/idWebViewAmericanas"
+        />
+
+        <ImageView android:layout_width="150sp"
+                   android:layout_height="150sp"
+                   android:src="@drawable/submarino"
+                   android:layout_marginTop="100sp"
+                   android:layout_marginLeft="130sp"
+                   android:id="@+id/idWebViewSubmarino"
+        />
+
+        <Button android:layout_width="150sp"
+                android:layout_height="wrap_content"
+                android:text="SOBRE"
+                android:layout_marginTop="50sp"
+                android:layout_marginLeft="130sp"
+                android:id="@+id/btSobre"
+                />
+
+    </LinearLayout>
+
+
+</ScrollView>
